@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body {
+    background-color: #6A4F92;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 70px;
+    color: #200C5C;
+}
+img {
+    filter: drop-shadow(0 0 0.5rem #290D7E);
+    height: 35%;
+    width: 35%;
+    margin: 10px 10px 10px 10px;
+    -webkit-transition: margin 0.4s ease-out;
+    -moz-transition: margin 0.4s ease-out;
+    -o-transition: margin 0.4s ease-out;
+}
+
+img:hover {
+    cursor:pointer;
+    margin-top: 5px;
+}
