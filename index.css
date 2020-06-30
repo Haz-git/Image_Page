@@ -19,12 +19,13 @@ img {
     height: 35%;
     width: 35%;
     margin: 10px 10px 10px 10px;
-    -webkit-transition: margin 0.4s ease-out;
-    -moz-transition: margin 0.4s ease-out;
-    -o-transition: margin 0.4s ease-out;
+    -webkit-transition: margin .3s ease-in;
+    -moz-transition: margin .3s ease-in;
+    -o-transition: margin .3s ease-in;
 }
 
 img:hover {
     cursor:pointer;
-    margin-top: 5px;
+    margin-top: 2px;
+    transform: scale(1.02);
 }
